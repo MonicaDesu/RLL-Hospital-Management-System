@@ -1,0 +1,57 @@
+Admin_sign_up :
+---------------------------------------------------------------------------------------------------
+id            email_id                                      password                  user_name
+---------------------------------------------------------------------------------------------------
+1              srija@gmail.com                        7896754310                  anu
+2              anup@gmail.com                      9087654321                 anupkini
+3              deekshat@gmail.com               8096432123                 deekshat
+
+
+Appointments :
+----------------------------------------------------------------------------------------------------------------------------------
+ap_id            address               ap_date          ap_time          disease              gender           p_name
+-----------------------------------------------------------------------------------------------------------------------------------
+1                     Vijayawada       23-03-2022      10 AM          Skin Ellergy         Male               Ramu Roy
+2                      Guntur               24-03-2022      2 PM             Cancer                 Female           Sita Guptha
+3                      Tenali                  23-03-2022      4 PM             Piles                     Male                Raju Gowd
+
+Discharge_patient_list :
+-----------------------------------------------------------------------------------------------------------------------------------
+d_id             confirm           d_date                   d_name              d_time       disease          p_name
+-----------------------------------------------------------------------------------------------------------------------------------
+2                    Yes                    27-03-2022           Dr.Meghana       10 AM        Cancer          Sita Guptha
+
+Doctor :
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+d_id        accept           address                                                                contact_no          d_name                   experience            gender             password              salary                 specialization       username
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1                accept           1-4/8-22/6 Autonagara , Vijayawada         9807092341        Dr.Meghana                2                          Female            123@12345         100000                Cancer                   Meghana
+2                reject             12c/9  Nagole , Hyderabad                            7093452132        Dr.Harshith                  4                           Male                123@54321         200000                Skin Ellergy          Harshith      
+3                accept            5-9/33/9 Saroni Nagra ,Delhi                        8409234512        Dr.Monica                    1                          Female             324@12345         50000                  Piles                       Monica
+
+Feedback :
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+feedback_id           d_name                 p_comments                                                                                                             p_id                   p_name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1                                  Dr.Monica            Dr. Monica did a great job with my first ever health exam.                       2                        Sita Guptha
+                                                                     She explained everything to me in a very clear manner. She
+                                                                     was also kind and friendly. All of the staff was great – they
+                                                                      were helpful, patient and helped with my insurance.
+
+2                                  Dr.Harshith           Great medical office, wonderful and warm experience from                      1                      Ramu Roy
+                                                                      start to finish. Appreciate Dr. Harshith taking time to go over
+                                                                      the diagnosis clearly and treatment options. Was referred over
+                                                                       by my general doctor and can see why. Highly recommended. 
+
+Patient :
+----------------------------------------------------------------------------------------------------------------------------------------------------
+username                   password               p_id            p_contact_no                  p_gender              p_name
+----------------------------------------------------------------------------------------------------------------------------------------------------
+1                                     123@12345            1                  9082345671                   Male                         Ramu Roy
+2                                     23@12345              2                  9234098761                   Female                     Sita Guptha
+3                                     321@54321            3                  7000123421                   Male                         Raju Gowd
+
+
+
+
+             
